@@ -13,6 +13,13 @@
 #     name: python3
 # ---
 
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import mglearn
+import warnings
+warnings.filterwarnings(action='ignore')
+
 # # 2. 지도 학습
 # - 입력과 출력 샘플 데이터 
 # - 주어진 입력으로부터 출력을 예측 
@@ -40,13 +47,6 @@
 # ### 2.2.1 모델 복잡도와 데이터셋 크기의 관계
 # - 다양한 데이터 포인트가 많을수록 과대적합 없이 더 복잡한 모델을 만들 수 있음  
 # - 실제 환경에서는 데이터를 얼마나 많이 모을지 정해야 함
-
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import mglearn
-import warnings
-warnings.filterwarnings(action='ignore')
 
 # ## 2.3 지도 학습 알고리즘
 #
